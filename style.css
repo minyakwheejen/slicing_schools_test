@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    font-family: "Varela Round", sans-serif;
+}
+
+.font-primary{
+    font-family: "Varela Round", sans-serif;
+    color: #404040;
+    ;
+}
+
+.fs-99{
+    font-size: 70px !important;
+}
+
+@media(masx-width: 768px){
+    .fs-99{
+        font-size: 66px !important;
+    }
+}
+
+.font-secondary {
+    color: #787878!important;
+}
+
+
+#myNavbar.bg-dark{
+    transition: all 0.3s;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+#myNavbar.bg-transparent{
+    transition: all 0.3s;
+}
+
+#myNavbar.img{
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+}
+
+
+.nav-link{
+    font-style: normal;
+    color: #787878;
+    font-size: 20px ;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.nav-link:hover{
+    background-color: ;
+    color:#FF5555 ;
+}
+
+.a:hover {
+    color: #FF5555;
+}
+
+#jumbotron{
+    background-image: url(./assets/bg/Untitled.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-custom-outline-1{
+    color: white;
+    align-items: center;
+    padding: 12px 40px;
+    width: 186px;
+    background: #FF9F0F;
+    border-radius: 50px;
+}
+
+#tentang{
+    margin: 120px;
+    min-height: 60vh;
+    background-color: white;
+}
+
+#keunggulan{
+    margin: 120px;
+    min-height: 60vh;
+    background-color: white;
+}
+
+#gallery{
+    margin: 120px;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.img-gallery{
+    border-radius: 50px;
+}
+
+#mitra{
+    margin: 120px;
+    min-height: 90vh;
+    background-color: white;
+}
+
+#informasi{
+    padding-left: 40px;
+    padding-bottom: 40px;
+    min-height: 100vh;
+    background-color: white;
+    margin: 120px;
+}
+
+#latar-second{
+    min-height: 100vh;
+    background-image: url(./assets/bg/bg2.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+}
+
+#footer{
+    min-height: 40vh;
+    background-color:#333333;
+    padding: 40px;
+}
+
+#footer-second{
+    min-height: 10vh;
+    background-color:#333333;
+}
+
+.rectangle{
+    width: 100%;
+    height: 1px;
+    background: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    object-fit: cover;
+}
+
+#jumbotron-second{
+    background-image: url(./assets/bg/bg33.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#profil{
+    min-height: 40vh;
+    background-color: white;
+    margin: 120px;
+}
+
+#staff{
+    min-height: 100vh;
+    background-color: white;
+    margin: 120px;
+}
+
+#jumbotron-third{
+    min-height: 100vh;
+    background-image: url(./assets/bg/jumbotron3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#informasi-dua{
+    min-height: 150vh;
+    margin: 120px;
+    background-color: white;
+}
+
+#jumbotron-four{
+    min-height: 100vh;
+    background-image: url(./assets/bg/bg3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+#informasi-tiga{
+    min-height: 210vh;
+    margin: 120px;
+    background-color: white;
+}
+
+#jumbotron-five{
+    min-height: 100vh;
+    background-image: url(./assets/bg/bg4.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#kontak{
+    min-height: 100vh;
+    margin: 120px;
+    background-color: white;
+}
